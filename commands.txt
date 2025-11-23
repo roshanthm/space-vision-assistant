@@ -1,0 +1,12 @@
+py -3.10 -m venv venv
+
+pip install --upgrade pip wrong do == python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+
+
+powershell -ExecutionPolicy ByPass -c "irm https://hf.co/cli/install.ps1 | iex"
+
+pip install huggingface_hub==0.24.5
+
+pip install google-generativeai==0.3.0

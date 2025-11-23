@@ -1,0 +1,15 @@
+Space-Vision-Assistant/
+├─ app.py                 # Streamlit UI (Modern Dark NASA theme)
+├─ nasa_api.py            # APOD + Image Library fetch utilities
+├─ detector.py            # simple local classifier wrapper (torch/tf optional)
+├─ explain.py             # Gemini wrapper for explanations
+├─ exoplanet/             # your transit module integrated
+│   ├─ model.py
+│   └─ exo_detector.py
+├─ heatmap.py             # grad-CAM helper (optional)
+├─ report.py              # PDF mission report generator
+├─ assets/
+│   └─ background.mp4     # local path: /mnt/data/background.mp4 (used by app)
+├─ requirements.txt
+├─ .env.example
+└─ README.md
