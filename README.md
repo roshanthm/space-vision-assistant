@@ -38,7 +38,5 @@ Includes:
 - Date/time  
 - Perfect for judges & documentation
 
----
 
-## 🗂️ Project Structure
 
